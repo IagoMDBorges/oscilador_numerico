@@ -24,10 +24,7 @@ Os resultados numéricos são comparados com a solução analítica exata, permi
 ```
 .
 ├── oscilador_euler_rk2_rk4.ipynb   # Notebook principal com implementação e análise
-└── imagens/
-    ├── trajetória_temporal.png
-    ├── espaço_de_fase.png
-    └── análise_de_convergência.png
+└── imagens/   # gráficos gerados          
 ```
 
 ## Resultados
