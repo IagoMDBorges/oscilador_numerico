@@ -53,12 +53,6 @@ Erro absoluto final em função do passo de integração `h`, em escala log-log.
 - NumPy
 - Matplotlib
 
-Instale as dependências com:
-
-```bash
-pip install numpy matplotlib
-```
-
 ## Como executar
 
 Abra o notebook com Jupyter:
