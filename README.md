@@ -70,6 +70,3 @@ Abra o notebook com Jupyter:
 jupyter notebook oscilador_euler_rk2_rk4.ipynb
 ```
 
-## Autor
-
-Iago
