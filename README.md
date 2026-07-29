@@ -37,7 +37,7 @@ Comparação da posição `x(t)` obtida por cada método com a solução exata. 
 
 ### Espaço de fase
 
-No plano `(x, v)`, a solução exata e as de RK2/RK4 descrevem uma órbita fechada (círculo), como esperado para o oscilador harmônico. Já o método de Euler diverge visivelmente, espiralando para fora — evidência de que o método introduz um crescimento espúrio de energia.
+No plano `(x, v)`, a solução exata e as de RK2/RK4 descrevem uma órbita fechada (círculo), como esperado para o oscilador harmônico. Já o método de Euler diverge visivelmente, espiralando para fora — evidência de que o método introduz um ganho irreal de energia.
 
 ![Espaço de fase](imagens/espaço_de_fase.png)
 
