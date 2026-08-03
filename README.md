@@ -1,6 +1,6 @@
 # Integração Numérica do Oscilador Harmônico: Euler, RK2 e RK4
 
-Estudo comparativo de três métodos explícitos de integração numérica — Euler, Runge-Kutta de 2ª ordem (RK2) e Runge-Kutta de 4ª ordem (RK4) — aplicados ao oscilador harmônico simples, com verificação empírica da ordem de convergência de cada método.
+Estudo comparativo de três métodos explícitos de integração numérica, Euler, Runge-Kutta de 2ª ordem (RK2) e Runge-Kutta de 4ª ordem (RK4), aplicados ao oscilador harmônico simples, com verificação empírica da ordem de convergência de cada método.
 
 ## Motivação
 
@@ -58,13 +58,13 @@ A posição `x(t)` obtida por cada método é comparada com a solução exata. O
 
 ### Espaço de fase
 
-No plano (x, v), a solução exata descreve uma órbita fechada, refletindo a conservação de energia do sistema. RK2 e RK4 preservam essa órbita com boa fidelidade; o método de Euler, por outro lado, espirala para fora — evidência direta de que o método introduz um crescimento espúrio de energia a cada passo, consequência de sua natureza não simplética.
+No plano (x, v), a solução exata descreve uma órbita fechada, refletindo a conservação de energia do sistema. RK2 e RK4 preservam essa órbita com boa fidelidade; o método de Euler, por outro lado, espirala para fora, evidência direta de que o método introduz um crescimento espúrio de energia a cada passo, consequência de sua natureza não simplética.
 
 ![Espaço de fase](imagens/espaço_de_fase.png)
 
 ### Análise de convergência
 
-O erro absoluto final é calculado para uma faixa de passos `h`, em escala log-log. As inclinações das retas de ajuste correspondem às ordens de convergência esperadas — aproximadamente 1, 2 e 4 para Euler, RK2 e RK4, respectivamente —, confirmando empiricamente a análise teórica de erro de truncamento de cada método.
+O erro absoluto final é calculado para uma faixa de passos `h`, em escala log-log. As inclinações das retas de ajuste correspondem às ordens de convergência esperadas, aproximadamente 1, 2 e 4 para Euler, RK2 e RK4, respectivamente, confirmando empiricamente a análise teórica de erro de truncamento de cada método.
 
 ![Análise de convergência](imagens/análise_de_convergência.png)
 
